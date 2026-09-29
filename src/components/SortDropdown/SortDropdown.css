@@ -1,0 +1,47 @@
+.sort-dropdown {
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    padding: 0 12px 0 15px;
+
+    border: 1px solid #e0e6ef;
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    color: #8c9bb2;
+
+    font-size: 13px;
+
+    box-shadow: 0 2px 5px rgba(34, 52, 75, 0.03);
+}
+
+.sort-dropdown select {
+    appearance: none;
+
+    border: none;
+
+    padding: 0 22px 0 5px;
+
+    background: transparent;
+
+    color: #37455e;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.sort-dropdown svg {
+    position: absolute;
+
+    right: 10px;
+
+    pointer-events: none;
+
+    color: #71819a;
+}

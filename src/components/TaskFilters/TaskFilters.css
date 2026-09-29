@@ -1,0 +1,68 @@
+.task-filters {
+    display: flex;
+    align-items: center;
+
+    padding: 6px;
+
+    background: #eef2f7;
+
+    border: 1px solid #e5eaf1;
+    border-radius: 17px;
+
+    gap: 2px;
+}
+
+.filter {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 0 18px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: transparent;
+
+    color: #50617a;
+
+    font-size: 14px;
+}
+
+.filter.active {
+    background: #ffffff;
+
+    color: #27344b;
+
+    box-shadow: 0 2px 7px rgba(36, 52, 75, 0.06);
+}
+
+.filter.active svg {
+    color: #5148e8;
+}
+
+.filter-count {
+    padding: 4px 9px;
+
+    border-radius: 9px;
+
+    background: #edf1f7;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.overdue-filter {
+    gap: 7px;
+}
+
+.overdue-dot {
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #ff4866;
+}

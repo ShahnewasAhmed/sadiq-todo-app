@@ -1,0 +1,57 @@
+.task-stats {
+    flex-shrink: 0;
+    margin-top: 18px;
+    padding-top: 18px;
+
+    border-top: 1px solid #e1e6ee;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pending-info {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    color: #56667e;
+
+    font-size: 14px;
+}
+
+.pending-info strong {
+    color: #26344a;
+}
+
+.stats-dot {
+    width: 11px;
+    height: 11px;
+
+    border-radius: 50%;
+
+    background: #5148e8;
+}
+
+.clear-button {
+    height: 37px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 0 15px;
+
+    border: 1px solid #e0e6ee;
+    border-radius: 11px;
+
+    background: white;
+
+    color: #53627a;
+
+    font-size: 13px;
+
+    box-shadow: 0 2px 6px rgba(32, 51, 78, 0.04);
+}

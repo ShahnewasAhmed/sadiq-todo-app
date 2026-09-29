@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+  <title>Sadiq Logo</title>
+  <desc>Minimal vector logo for Sadiq, featuring a task-list/checkmark icon and wordmark.</desc>
+
+  <!-- Icon -->
+  <g transform="translate(130 225)">
+    <!-- Top task -->
+    <rect x="0" y="0" width="300" height="112" rx="56" fill="#123E73"/>
+    <circle cx="63" cy="56" r="29" fill="#FFFFFF"/>
+
+    <!-- Middle task with angled end -->
+    <path d="M56 145
+             H245
+             L300 201
+             L245 257
+             H56
+             C25 257 0 232 0 201
+             C0 170 25 145 56 145 Z"
+          fill="#123E73"/>
+    <circle cx="63" cy="201" r="29" fill="#FFFFFF"/>
+
+    <!-- Bottom task / check -->
+    <path d="M56 280
+             H132
+             L190 338
+             L300 228
+             V382
+             C300 413 275 438 244 438
+             H56
+             C25 438 0 413 0 382
+             V336
+             C0 305 25 280 56 280 Z"
+          fill="#123E73"/>
+
+    <!-- White check area -->
+    <path d="M132 280 L190 338 L300 228 V300 L190 410 L96 316 Z"
+          fill="#FFFFFF"/>
+
+    <!-- Teal completion segment -->
+    <path d="M190 338 L300 228 V382
+             C300 413 275 438 244 438
+             H190 Z"
+          fill="#2FC9B0"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="555" y="505"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="270"
+        font-weight="700"
+        letter-spacing="-10"
+        fill="#123E73">Sadiq</text>
+</svg>

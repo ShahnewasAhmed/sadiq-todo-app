@@ -1,0 +1,165 @@
+.navbar {
+    flex-shrink: 0;
+    height: 78px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 7%;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e7ebf2;
+}
+
+/* Logo */
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+
+    gap: 13px;
+
+    min-width: 230px;
+}
+
+.navbar-logo-img {
+    height: 42px;
+    width: 130px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.logo-box {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 13px;
+
+    background: #5148e8;
+    color: white;
+
+    font-size: 23px;
+    font-weight: 600;
+
+    box-shadow: 0 5px 12px rgba(81, 72, 232, 0.25);
+}
+
+.logo-text h2 {
+    font-size: 21px;
+    line-height: 1;
+
+    color: #172238;
+}
+
+.logo-text span {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 11px;
+    letter-spacing: 0.8px;
+
+    color: #91a2bd;
+}
+
+/* Search */
+
+.navbar-search {
+    position: relative;
+
+    flex: 1;
+
+    max-width: 620px;
+
+    margin: 0 auto;
+}
+
+.navbar-search input {
+    width: 100%;
+    height: 46px;
+
+    padding: 0 48px 0 18px;
+
+    border: 1px solid #e1e7f0;
+    border-radius: 13px;
+
+    background: #f8fafd;
+
+    color: #34425a;
+
+    font-size: 15px;
+}
+
+.navbar-search input::placeholder {
+    color: #9aaac1;
+}
+
+.navbar-search svg {
+    position: absolute;
+
+    right: 16px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: #91a2bb;
+}
+
+/* Right */
+
+.navbar-right {
+    min-width: 230px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 17px;
+}
+
+.date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 5px;
+}
+
+.date-info strong {
+    font-size: 14px;
+    color: #27334a;
+}
+
+.date-info span {
+    font-size: 12px;
+    color: #91a2bd;
+}
+
+.navbar-divider {
+    width: 1px;
+    height: 35px;
+
+    background: #e4e8ef;
+}
+
+.theme-button {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #e3e8ef;
+    border-radius: 13px;
+
+    background: white;
+
+    color: #50617a;
+}
